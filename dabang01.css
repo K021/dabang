@@ -1,0 +1,127 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic','Malgun Gothic','돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #585858;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header.top_header {
+  height: 60px;
+  border-bottom: 1px solid #eee;
+}
+
+header.top_header > nav {
+  height: 60px;
+}
+
+header.top_header ul.left {
+  float: left;
+}
+
+header.top_header ul.link li {
+  float: left;
+}
+
+header.top_header ul.link li#img_dabang_p_1::after {
+  content: '|';
+  font-size: 15px;
+  color: #919191;
+  padding-left: 0px;
+  padding-top: 21px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+header.top_header ul.link.right_1 {
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+header.top_header ul.link a {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  color: #585858;
+  font-size: 14px;
+}
+
+header.top_header ul.link a#link_logo {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+header.top_header ul.link a#link_pro {
+  padding-left: 10px;
+  padding-right: 6px;
+}
+
+header.top_header ul.link a#link_pay {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header.top_header ul.link a img.img_logo {
+  position: relative;
+  top: 10%;
+}
+
+header.top_header ul.link a img.img_p {
+  position: relative;
+  top: 0%;
+}
+
+header.top_header ul.link a#link_search {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header.top_header ul.link a#link_keep {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header.top_header ul.link a#link_enroll {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header.top_header ul.link a#link_sign_c {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header.top_header ul.link a#link_sign_p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.right {
+  float: right;
+}
+
+div ul.right_1 {
+  float: left;
+}
+
+div ul.right_1 li {
+  float: left;
+}
+
+div ul.right_2 {
+  float: right;
+}
+
+div ul.right_2 li {
+  float: left;
+}

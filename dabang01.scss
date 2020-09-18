@@ -1,0 +1,117 @@
+@import "_dabang_variables";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic','Malgun Gothic','돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;
+}
+a {
+  text-decoration: none;
+  color: $color-text-link;
+}
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header.top_header {
+  height: $header-height;
+  border-bottom: 1px solid #eee;
+  > nav {
+    height: $header-height;
+  }
+  ul{
+    &.left {
+      float: left;
+    }
+    &.link {
+      li {
+        float: left;
+      }
+      li#img_dabang_p_1::after {
+        content: '|';
+        font-size: 15px;
+        color: $color-link-border;
+        padding-left: 0px;
+        padding-top: 21px;
+        vertical-align: top;
+        display: inline-block;
+      }
+      &.right_1 {
+        padding-left: 34px;
+        padding-right: 34px;
+      }
+      a {
+        display: inline-block;
+        height: $header-height;
+        line-height: $header-height;
+        color: $color-text-link;
+        font-size: 14px;
+        &#link_logo {
+          padding-left: 20px;
+          padding-right: 10px;
+        }
+        &#link_pro {
+          padding-left: 10px;
+          padding-right: 6px;
+        }
+        &#link_pay {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        img.img_logo {
+          position: relative;
+          top: 10%;
+          // left: 16%;
+        }
+        img.img_p {
+          position: relative;
+          top: 0%;
+          // left: 14%;
+        }
+        &#link_search {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        &#link_keep {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        &#link_enroll {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        &#link_sign_c {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        &#link_sign_p {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+div {
+  &.right{
+    float: right;
+  }
+  ul {
+    &.right_1{
+      float: left;
+      li {
+        float: left;
+      }
+    }
+    &.right_2{
+      float: right;
+      li {
+        float: left;
+      }
+    }
+  }
+}
